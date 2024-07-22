@@ -5,7 +5,6 @@ import HeaderBascetProduct from '../HeaderBascetProduct';
 
 function Header() {
     const products = useSelector(state => state.products);
-    const dispatch = useDispatch();
     const total = products[2];
 
     return ( 
