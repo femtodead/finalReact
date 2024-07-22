@@ -1,10 +1,9 @@
-import { useDispatch } from "react-redux";
-import "../model.css"
-import { delPoduct } from ".../actions/listActionts.js";
+import { useDispatch, useSelector } from "react-redux";
+import "./model.css"
+import { delPoduct } from "../actions/listActionts.js";
 
-function headerBascetProduct(props) {
+function HeaderBascetProduct(props) {
     const dispatch = useDispatch();
-
     const del = (e) => {
         dispatch(delPoduct(e.target.id.split('del')[1]))
     }
@@ -22,4 +21,4 @@ function headerBascetProduct(props) {
     </div> );
 }
 
-export default headerBascetProduct;
+export default HeaderBascetProduct;
