@@ -1,4 +1,4 @@
-import CartProductHome from './CartProductHome.js';
+import CartProductHome from './cartProductHome.js';
 import { useDispatch, useSelector } from "react-redux";
 
 

@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import "../model.css"
 import { Link } from 'react-router-dom';
-import HeaderBascetProduct from '../HeaderBascetProduct';
+import HeaderBascetProduct from '../headerBascetProduct';
 
 function Header() {
     const products = useSelector(state => state.products);
