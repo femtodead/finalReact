@@ -16,6 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 .header_left {
   display: flex;
@@ -1057,6 +1058,7 @@
     justify-content: space-between;
     padding-top: 65px;
     padding-bottom: 65px;
+    margin-bottom: 71px;
   }
   .topcontent_name {
     font-family: Lato;

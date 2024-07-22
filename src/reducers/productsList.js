@@ -1,14 +1,14 @@
 import { ADD_BASCET_PRODUCT, AGAIN_ADD_BASCET_PRODUCT, DEL_PRODUCT, MINYS_QUANTITY} from "../actions/listActionts";
 let total = 0
 const initialState = [[
-    {id: 0,name: "Продукт1", price: "1$", size: "Xll", img: "/img/card_1.png",color: 'red'},
-    {id: 1,name: "Продукт2", price: "2$", size: "Xll", img: "/img/card_2.png",color: 'red'},
-    {id: 2,name: "Продукт3", price: "3$", size: "Xll", img: "/img/card_3.png",color: 'red'},
-    {id: 3,name: "Продукт4", price: "4$", size: "Xll", img: "/img/card_4.png",color: 'red'},
-    {id: 4,name: "Продукт5", price: "5$", size: "Xll", img: "/img/card_5.png",color: 'red'},
-    {id: 5,name: "Продукт6", price: "6$", size: "Xll", img: "/img/card_6.png",color: 'red'},
-    {id: 6,name: "Продукт7", price: "7$", size: "Xll", img: "/img/card_7.png",color: 'red'},
-    {id: 7,name: "Продукт8", price: "8$", size: "Xll", img: "/img/card_8.png",color: 'red'}],[], total]
+    {id: 0,name: "Продукт1", price: "1$", size: "XXS", img: "/img/card_1.png",color: 'red'},
+    {id: 1,name: "Продукт2", price: "2$", size: "XXS", img: "/img/card_2.png",color: 'red'},
+    {id: 2,name: "Продукт3", price: "3$", size: "XS", img: "/img/card_3.png",color: 'red'},
+    {id: 3,name: "Продукт4", price: "4$", size: "XXS", img: "/img/card_4.png",color: 'red'},
+    {id: 4,name: "Продукт5", price: "5$", size: "XXS", img: "/img/card_5.png",color: 'red'},
+    {id: 5,name: "Продукт6", price: "6$", size: "S", img: "/img/card_6.png",color: 'red'},
+    {id: 6,name: "Продукт7", price: "7$", size: "M", img: "/img/card_7.png",color: 'red'},
+    {id: 7,name: "Продукт8", price: "8$", size: "L", img: "/img/card_8.png",color: 'red'}],[], total, []]
 
 
 const productsList = (state = initialState, action) => {
