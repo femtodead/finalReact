@@ -5,7 +5,12 @@ import { delPoduct } from "../actions/listActionts.js";
 function HeaderBascetProduct(props) {
     const dispatch = useDispatch();
     const del = (e) => {
-        dispatch(delPoduct(e.target.id.split('del')[1]))
+        if(e.target.className == 'testDiv_card'){
+            dispatch(delPoduct(e.target.id.split('del')[1]))
+        }
+        else{
+            dispatch(delPoduct(e.target.parentElement.id.split('del')[1]))
+        }
     }
 
     return ( <div className="testDiv_card">
